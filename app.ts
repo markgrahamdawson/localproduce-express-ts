@@ -1,9 +1,8 @@
 import express from 'express';
 
-
 const app = express()
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8000
 
 app.get('/locations',(req,res) => {
     const locations = {
